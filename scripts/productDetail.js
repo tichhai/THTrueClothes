@@ -17,3 +17,21 @@ c2.src = `../images/${data.details[1]}`;
 b1.src = `../images/${data.details[0]}`;
 b2.src = `../images/${data.details[1]}`;
 videoc.src = `../videos/${data.details[2]}`;
+
+//in, dec quantity
+let quantity = document
+  .querySelector(".quantity")
+  .getElementsByTagName("input")[0];
+const incBtn = document.querySelector(".inc");
+const decBtn = document.querySelector(".dec");
+const changeQuantity = (number) => {
+  if (Number(quantity.value) == 1 && number == -1) return;
+  quantity.value = Number(quantity.value) + number;
+};
+incBtn.onclick = () => {
+  changeQuantity(1);
+};
+decBtn.onclick = () => {
+  changeQuantity(-1);
+};
+// decBtn.addEventListener("click", changeQuantity(-1));

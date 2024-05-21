@@ -17,6 +17,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../styles/offInput.css" />
   </head>
   <body>
     <script src="../scripts/loader.js"></script>
@@ -99,28 +100,6 @@
             class="carousel slide"
             data-bs-ride="carousel"
           >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#productDetailCarousel"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#productDetailCarousel"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#productDetailCarousel"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
@@ -144,7 +123,11 @@
                   controls
                   class="procDetail-img video-product-carousel"
                   loop
-                  style="background-color: #f2f2f2"
+                  style="
+                    background-color: #f2f2f2;
+                    width: 100% !important;
+                    height: 530px !important;
+                  "
                 ></video>
               </div>
             </div>
@@ -278,9 +261,9 @@
           </select>
           <h5>Quantity</h5>
           <div class="quantity">
-            <button class="inc">-</button>
+            <button class="dec">-</button>
             <input type="number" min="1" value="1" name="quantity" />
-            <button class="dec">+</button>
+            <button class="inc">+</button>
           </div>
           <button
             class="normal addToCart-btn"
