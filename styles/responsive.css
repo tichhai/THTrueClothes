@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* menu */
   .navbar .cart {
     display: none;
@@ -113,7 +113,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* featued product */
   .product-card {
     width: 48% !important;
@@ -147,16 +147,18 @@
   }
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 479px) {
   #newsletter .form {
     flex-direction: column;
     width: 100% !important;
   }
   .form input {
     width: 100% !important;
+    border-radius: 4px !important;
   }
   .form button {
     margin-top: 10px;
+    border-radius: 4px !important;
   }
   .afterpay {
     flex-direction: column;
