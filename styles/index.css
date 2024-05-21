@@ -727,8 +727,8 @@ footer .copyright {
 /* floating buttons */
 #floating-btn {
   position: fixed;
-  bottom: 71px;
-  right: 0;
+  bottom: 6px;
+  left: 0;
   z-index: 99;
 }
 .contact-btn {
