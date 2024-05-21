@@ -45,7 +45,7 @@ fetch("../data/product.json")
         const price = document.createElement("h4");
         price.textContent = item.price + "đ";
         const cartLink = document.createElement("a");
-        cartLink.href = "./Cart.html";
+        cartLink.href = "";
 
         const cartIcon = document.createElement("i");
         cartIcon.classList.add("fa-solid", "fa-shopping-cart", "cart");

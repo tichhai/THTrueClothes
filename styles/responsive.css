@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
   /* menu */
-  .cart {
+  .navbar .cart {
     display: none;
   }
   .cart-res {
@@ -31,6 +31,9 @@
   .nav-item a:hover::after {
     width: 5% !important;
     left: 2px !important;
+  }
+  .navbar-brand {
+    font-size: 15px !important;
   }
   /* news blog */
   .blog-box {
@@ -141,5 +144,24 @@
   }
   #form-details form {
     width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  #newsletter .form {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .form input {
+    width: 100% !important;
+  }
+  .form button {
+    margin-top: 10px;
+  }
+  .afterpay {
+    flex-direction: column;
+  }
+  .people div {
+    flex-direction: column;
   }
 }
