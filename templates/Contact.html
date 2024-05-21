@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TH True Clothes</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script src="../scripts/loader.js"></script>
+
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-md navbar-light justify-content-between fixed-top px-5"
+      id="nav"
+    >
+      <a
+        class="navbar-brand"
+        href="./Home.html"
+        style="display: flex; align-items: center"
+      >
+        <img
+          src="../images/logo.png"
+          width="50"
+          height="50"
+          class="d-inline-block align-top"
+          alt="logo"
+        />
+        <span> TH True Clothes </span>
+      </a>
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <li style="position: relative">
+          <a class="nav-link cart-res" href="./Cart.html" style="display: none"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </li>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="./Home.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contact.html">Contact</a>
+          </li>
+          <li class="nav-item cart">
+            <a class="nav-link cart-nav" href="./Cart.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- banner -->
+    <section
+      id="page-header"
+      class="about-header"
+      style="
+        background-image: url(../images/banner_about.png);
+        margin-top: 70px;
+      "
+    >
+      <h1 style="color: white !important">#let's_talk</h1>
+      <p style="color: white !important">
+        LEAVE A MESSAGE ,We'd love to hear from you !
+      </p>
+    </section>
+    <main class="container">
+      <!-- contact -->
+      <section id="contact-details">
+        <div class="details">
+          <span>GET IN TOUCH</span>
+          <h2>Visit one of out agency locations or contact us today</h2>
+          <h3>Head Office</h3>
+          <div class="contact-info">
+            <li>
+              <i class="far fa-map"></i>
+              <p>
+                180 Đ. Cao Lỗ, Phường 4, Quận 8, Thành phố Hồ Chí Minh, Việt Nam
+              </p>
+            </li>
+            <li>
+              <i class="far fa-envelope"></i>
+              <p>dh52110854@student.stu.edu.vn</p>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <p>(028)38505520</p>
+            </li>
+            <li>
+              <i class="far fa-clock"></i>
+              <p>Monday to Saturday: 7am to 5pm</p>
+            </li>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9544104258935!2d106.67525717331985!3d10.737997189408434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1715787129829!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- end contact -->
+      <!-- scroll to top btn -->
+      <button id="scrollToTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <!-- end scroll to top btn -->
+    </main>
+    <!-- contact form -->
+    <section id="form-details">
+      <form id="contact-form">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We'd love to hear from you</h2>
+        <label for="name">Fullname:*</label>
+        <input type="text" placeholder="example" id="name" />
+        <span class="validate-text" id="nameError"></span>
+        <label for="email">Email:*</label>
+        <input type="text" placeholder="example@gmail.com" id="email" />
+        <span class="validate-text" id="emailError"></span>
+        <label for="password">Password:*</label>
+        <div style="display: flex; width: 100%">
+          <input
+            type="password"
+            placeholder="******"
+            id="password"
+            style="border-right: none"
+          />
+          <i class="fa-regular fa-eye-slash eyes-icon"></i>
+        </div>
+        <span class="validate-text" id="passwordError"></span>
+        <label for="re-password">Re-enter Password:*</label>
+        <div style="display: flex; width: 100%">
+          <input
+            type="password"
+            placeholder="******"
+            id="re-password"
+            style="border-right: none"
+          />
+          <i class="fa-regular fa-eye-slash eyes-icon"></i>
+        </div>
+        <span class="validate-text" id="rePasswordError"></span>
+
+        <label for="phone">Phone:*</label>
+        <input type="text" placeholder="xxxxxxxxxx" id="phone" />
+        <span class="validate-text" id="phoneError"></span>
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <span class="validate-text" id="messageError"></span>
+        <button class="normal" style="margin-top: 20px">Submit</button>
+      </form>
+      <div class="people">
+        <div>
+          <img src="../images/people1.jpg" alt="" />
+          <p>
+            <span>John Cena</span>Senior Maketing Maneger <br />Phone: + 000 123
+            000 77 88 <br />
+            Email:contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="../images/people2.jpg" alt="" />
+          <p>
+            <span>John Cena</span>Senior Maketing Maneger <br />Phone: + 000 123
+            000 77 88 <br />
+            Email:contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="../images/people3.png" alt="" />
+          <p>
+            <span>Jone Doe</span>Senior Maketing Maneger <br />Phone: + 000 123
+            000 77 88 <br />
+            Email:contact@example.com
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end contact form -->
+    <!-- newsletter -->
+    <section id="newsletter" class="section-m1" style="padding: 40px 80px">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span> special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+    <!-- end newsletter -->
+    <footer id="footer" style="padding: 40px 80px">
+      <div class="column">
+        <img
+          class="logo"
+          src="../images/logo.png"
+          alt="logo"
+          width="140px"
+          height="140px"
+        />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>180 Cao Lo TP.HCM</p>
+        <p><strong>Phone:</strong>(028) 38 505 520</p>
+        <p><strong>Hours:</strong>7am-5pm, Mon-Sat</p>
+        <h4>Follow Us</h4>
+        <div class="follow">
+          <a
+            href="https://www.facebook.com/profile.php?id=100037784133388&locale=vi_VN"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCASjWgnKp5i0YlU70foCAIA">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <h4>About</h4>
+        <a href="./About.html">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms $ Conditions</a>
+        <a href="./Contact.html">Contact Us</a>
+      </div>
+      <div class="column">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="./Cart.html">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="./Cart.html">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="column install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row-custom">
+          <a
+            href="https://apps.apple.com/vn/app/lazada-ch%E1%BB%8Dn-h%C3%A0ng-%C4%91%C3%BAng-ch%E1%BA%A5t/id785385147?l=vi"
+          >
+            <img src="../images/apple.jpg" alt="" />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.lazada.android&hl=vi&gl=US"
+          >
+            <img src="../images/ggplay.jpg" alt="" />
+          </a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../images/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>© Copyright 2024 Huynh Tich Hai DH52110854 D21_TH07</p>
+      </div>
+    </footer>
+    <!-- floating buttons -->
+    <div id="floating-btn">
+      <!-- facebook -->
+      <div class="contact-btn">
+        <div class="outter-circle facebook-circle"></div>
+        <div class="inner-circle facebook-inner-circle">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100037784133388&locale=vi_VN"
+          >
+            <img
+              alt="facebook"
+              src="../images/facebook.png"
+              class="facebook-custom-width"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- end facebook -->
+      <!-- messenger -->
+      <div class="contact-btn">
+        <div class="outter-circle messenger-circle"></div>
+        <div class="inner-circle messenger-inner-circle">
+          <a
+            target="_blank"
+            href="https://www.messenger.com/e2ee/t/6899791446753325"
+          >
+            <img
+              alt="messenger"
+              src="../images/messenger.png"
+              class="messenger-custom-width"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- end messenger -->
+      <!-- zalo -->
+      <div class="contact-btn">
+        <div class="outter-circle zalo-circle"></div>
+        <div class="inner-circle zalo-inner-circle">
+          <a target="_blank" href="https://zalo.me/0915516490">
+            <img alt="zalo" src="../images/zalo.png" />
+          </a>
+        </div>
+      </div>
+      <!-- end zalo -->
+      <!-- phone -->
+      <div class="contact-btn">
+        <div class="outter-circle phone-circle"></div>
+        <div class="inner-circle phone-inner-circle">
+          <a href="tel:02838505520">
+            <img alt="phone" src="../images/phone.png" />
+          </a>
+        </div>
+      </div>
+      <!-- end phone -->
+    </div>
+    <!-- end floating buttons -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/jquery-3.3.1.min.js"></script>
+    <script src="../scripts/validate.js"></script>
+  </body>
+</html>

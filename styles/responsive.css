@@ -1,0 +1,145 @@
+@media only screen and (max-width: 768px) {
+  /* menu */
+  .cart {
+    display: none;
+  }
+  .cart-res {
+    display: block !important;
+  }
+  /* featued product */
+  .product-card {
+    width: 100% !important;
+  }
+  .des > h5 {
+    width: 100% !important;
+  }
+  .img-container {
+    height: 400px !important;
+  }
+
+  /* banner bottom */
+  #banner3 > .banner-box {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+  /* newsletter */
+  #newsletter .form {
+    width: 70% !important;
+  }
+  /* navbar */
+  .nav-item a.active-a::after,
+  .nav-item a:hover::after {
+    width: 5% !important;
+    left: 2px !important;
+  }
+  /* news blog */
+  .blog-box {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .blog-img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .blog-img img {
+    width: 100% !important;
+  }
+  .blog-content {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  /* about */
+  #about-head {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #about-head > img {
+    width: 100% !important;
+  }
+  #about-head > div {
+    padding-left: 0 !important;
+  }
+  /* contact */
+  #contact-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #contact-details .details {
+    width: 100% !important;
+  }
+  #contact-details .map {
+    width: 100% !important;
+    height: 400px;
+  }
+  #form-details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #form-details form {
+    width: 100% !important;
+  }
+  /* small banner */
+  .sm-banner {
+    flex-direction: column;
+  }
+  .sm-banner > .banner-box {
+    width: 100% !important;
+  }
+  /* product detail */
+  .main-procDetail {
+    flex-direction: column;
+  }
+  .left {
+    width: 100% !important;
+  }
+  .right {
+    width: 100% !important;
+  }
+  .name-detail {
+    margin-top: 20px;
+  }
+  /* cart */
+  #cart-add {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100% !important;
+  }
+  #subtotal {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* featued product */
+  .product-card {
+    width: 48% !important;
+  }
+  .des > h5 {
+    width: 100% !important;
+  }
+
+  /* newsletter */
+  #newsletter .form {
+    width: 70% !important;
+  }
+  /* about */
+  #about-head {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #about-head > img {
+    width: 100% !important;
+  }
+  #about-head > div {
+    padding-left: 0 !important;
+  }
+  /* contact */
+  #form-details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #form-details form {
+    width: 100% !important;
+  }
+}
