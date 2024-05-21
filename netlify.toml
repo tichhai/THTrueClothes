@@ -2,3 +2,27 @@
   from = "/"
   to = "/templates/Home.html"
   status = 200
+[[redirects]]
+  from = "/About"
+  to = "/templates/About.html"
+  status = 200
+[[redirects]]
+  from = "/Blog"
+  to = "/templates/Blog.html"
+  status = 200
+[[redirects]]
+  from = "/Cart"
+  to = "/templates/Cart.html"
+  status = 200
+[[redirects]]
+  from = "/Contact"
+  to = "/templates/Contact.html"
+  status = 200
+[[redirects]]
+  from = "/ProductDetail"
+  to = "/templates/ProductDetail.html"
+  status = 200
+[[redirects]]
+  from = "/Shop"
+  to = "/templates/Shop.html"
+  status = 200
