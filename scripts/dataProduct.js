@@ -2,6 +2,20 @@ fetch("../data/product.json")
   .then((response) => response.json())
   .then((data) => {
     const dataProducts = data.products;
+    const preloadImages = [];
+
+    dataProducts.forEach((item) => {
+      preloadImages.push(
+        `../images/${item.details[0]}`,
+        `../images/${item.details[1]}`
+      );
+    });
+
+    // Preload images
+    preloadImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
     dataProducts.forEach((item, index) => {
       if (index < 8) {
         const productContainer = document.querySelector(".product-container");
