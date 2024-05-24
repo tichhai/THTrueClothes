@@ -18,6 +18,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/offInput.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script src="../scripts/loader.js"></script>
@@ -248,17 +252,75 @@
           </div>
           <hr style="margin: 40px 0" />
           <h5>Size</h5>
-          <select
-            name="size"
-            id="size"
-            style="width: 100%; height: 50px; margin-bottom: 20px"
-          >
-            <option value="XS">XS</option>
-            <option value="S">S</option>
-            <option value="M">M</option>
-            <option value="L">L</option>
-            <option value="XL">XL</option>
-          </select>
+          <!-- size buttons -->
+          <section style="margin: 20px 0">
+            <button
+              class="normal size-btn"
+              style="color: #088178; height: 50px; border: 1px solid #088178"
+            >
+              XS
+            </button>
+            <button
+              class="normal size-btn"
+              style="color: #088178; height: 50px; border: 1px solid #088178"
+            >
+              S
+            </button>
+            <button
+              class="normal size-btn active"
+              style="color: #088178; height: 50px; border: 1px solid #088178"
+            >
+              M
+            </button>
+            <button
+              class="normal size-btn"
+              style="color: #088178; height: 50px; border: 1px solid #088178"
+            >
+              L
+            </button>
+            <button
+              class="normal size-btn"
+              style="color: #088178; height: 50px; border: 1px solid #088178"
+            >
+              XL
+            </button>
+          </section>
+          <!-- end size buttons -->
+          <h5>Color</h5>
+          <!-- color buttons -->
+          <section style="margin: 20px 0">
+            <button
+              class="normal color-btn red"
+              style="height: 50px; border: 1px solid red"
+            >
+              Red
+            </button>
+            <button
+              class="normal color-btn yellow"
+              style="height: 50px; border: 1px solid yellow"
+            >
+              Yellow
+            </button>
+            <button
+              class="normal color-btn black active"
+              style="height: 50px; border: 1px solid black"
+            >
+              Black
+            </button>
+            <button
+              class="normal color-btn blue"
+              style="height: 50px; border: 1px solid blue"
+            >
+              Blue
+            </button>
+            <button
+              class="normal color-btn pink"
+              style="height: 50px; border: 1px solid pink"
+            >
+              Pink
+            </button>
+          </section>
+          <!-- end color buttons -->
           <h5>Quantity</h5>
           <div class="quantity">
             <button class="dec">-</button>
@@ -324,6 +386,170 @@
           <p class="fabrication">95% MODAL 5% SPANDEX</p>
         </div>
       </section>
+      <!-- comments -->
+      <section style="background-color: white; width: 100%">
+        <div class="container my-5 py-5 text-dark">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-6">
+              <div class="card">
+                <div class="card-body p-4">
+                  <div class="d-flex flex-start w-100">
+                    <img
+                      class="rounded-circle shadow-1-strong me-3"
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(13).webp"
+                      alt="avatar"
+                      width="65"
+                      height="65"
+                    />
+                    <div class="w-100">
+                      <h5>Add a comment</h5>
+                      <div class="d-flex w-full" style="margin-left: -20%">
+                        <div class="stars">
+                          <form action="" class="w-full">
+                            <input
+                              class="star star-1"
+                              id="star-1"
+                              type="radio"
+                              name="star"
+                            />
+
+                            <label class="star star-1" for="star-1"></label>
+
+                            <input
+                              class="star star-2"
+                              id="star-2"
+                              type="radio"
+                              name="star"
+                            />
+
+                            <label class="star star-2" for="star-2"></label>
+
+                            <input
+                              class="star star-3"
+                              id="star-3"
+                              type="radio"
+                              name="star"
+                            />
+
+                            <label class="star star-3" for="star-3"></label>
+
+                            <input
+                              class="star star-4"
+                              id="star-4"
+                              type="radio"
+                              name="star"
+                            />
+
+                            <label class="star star-4" for="star-4"></label>
+
+                            <input
+                              class="star star-5"
+                              id="star-5"
+                              type="radio"
+                              name="star"
+                            />
+
+                            <label class="star star-5" for="star-5"></label>
+                          </form>
+                        </div>
+                      </div>
+                      <div data-mdb-input-init class="form-outline">
+                        <textarea
+                          class="form-control"
+                          id="textAreaExample"
+                          rows="4"
+                        ></textarea>
+                        <label class="form-label" for="textAreaExample"
+                          >What is your view?</label
+                        >
+                      </div>
+                      <div class="d-flex justify-content-end mt-3">
+                        <button
+                          type="button"
+                          data-mdb-button-init
+                          data-mdb-ripple-init
+                          class="btn btn-danger"
+                        >
+                          Send
+                          <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="background-color: white">
+        <div class="container my-5 py-5 text-body">
+          <div class="row d-flex justify-content-center">
+            <div class="comment-box col-md-11 col-lg-9 col-xl-7">
+              <!-- <div class="d-flex flex-start mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong me-3"
+                  src="https://picsum.photos/65"
+                  alt="avatar"
+                  width="65"
+                  height="65"
+                />
+                <div class="card w-100">
+                  <div class="card-body p-4">
+                    <div class="">
+                      <h5>John Cena</h5>
+                      <p class="small">3 hours ago</p>
+                      <p>Amazing!</p>
+                      <div
+                        class="d-flex justify-content-end align-items-center"
+                      >
+                        <a href="#!" class="link-muted"
+                          ><i class="fas fa-reply me-1"></i> Reply</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end comments -->
+      <!-- related products -->
+      <section class="container">
+        <h3 style="text-align: center">YOU MAY ALSO LIKE</h3>
+        <div class="product-container">
+          <!-- product card -->
+          <!-- <div class="product-card">
+            <div class="img-container">
+              <img src="../images/p1.png" alt="" class="hover-img" />
+            </div>
+            <div class="des">
+              <h5
+                class="truncate"
+                title="Manfinity Men Random Bird & Floral Print Shirt"
+              >
+                Manfinity Men Random Bird & Floral Print Shirt
+              </h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4>$99</h4>
+              <a href="./Cart.html"
+                ><i class="fa-solid fa-shopping-cart cart"></i
+              ></a>
+            </div>
+          </div> -->
+          <!-- end product card -->
+        </div>
+      </section>
+      <!-- end related products -->
       <!-- scroll to top btn -->
       <button id="scrollToTopBtn" title="Go to top">
         <i class="fa-solid fa-arrow-up"></i>

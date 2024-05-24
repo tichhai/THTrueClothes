@@ -5,49 +5,133 @@
       "price": "9.710.000",
       "description": "The So Says The Oracle V-Neck Scoop Back Hem Jersey Dress by Camilla emulates iconic vintage tattoo motifs in rich golden tones amongst a deep onyx backdrop. Bella Frock loves this luxury jersey dress features a relaxed body with a mini-length hemline at the front and a dramatically longer hemline at the back. The 3/4 batwing sleeves add a luscious volume of soft draping to the silhouette.",
       "fabrication": "95% MODAL 5% SPANDEX",
-      "details": ["p1.png", "bp1.png", "vp1.mp4"]
+      "details": ["p1.png", "bp1.png", "vp1.mp4"],
+      "comments": [
+        {
+          "username": "John Cena",
+          "time": "1",
+          "content": "Amazing!"
+        },
+        {
+          "username": "Tim Cook",
+          "time": "2",
+          "content": "Damn, it's hot"
+        }
+      ]
     },
     {
       "name": "CAMILLA | SEW YESTERDAY WIDE SLEEVE GATHERED DRESS",
       "price": "17.353.000",
       "description": "The Sew Yesterday Wide Sleeve Gathered Dress by Camilla wanders through a luscious garden of beautiful blooms adorned with delicate gold chains and captivating jewels. This luxury silk maxi dress features a relaxed full-length silhouette with a cascade of tiered panels throughout the drop waistline and flared skirt. The poetic billow of this dress is complemented by flared raglan sleeves finished with elegant ruffled hems.",
       "fabrication": "100% SILK",
-      "details": ["p2.jpg", "bp2.jpg", "vp2.mp4"]
+      "details": ["p2.jpg", "bp2.jpg", "vp2.mp4"],
+      "comments": [
+        {
+          "username": "Michael Smith",
+          "time": "1",
+          "content": "These jeans are super comfortable. Great quality!"
+        },
+        {
+          "username": "Emily Johnson",
+          "time": "3",
+          "content": "Absolutely love this dress! Perfect fit."
+        }
+      ]
     },
     {
       "name": "FREE PEOPLE | CALLA LILLY DRESS IN SANDSTONE",
       "price": "5.567.000",
       "description": "So effortlessly easy, the Calla Lilly Dress in Sandstone by Free People is a laidback maxi, featured in a shapeless silhouette and sleeveless design with a dropped waist and billowy bottom skirt. Bella Frock loves that this versatile maxi can be layered up or down and worn for every season.",
       "fabrication": "100% SILK",
-      "details": ["p3.png", "bp3.jpg", "vp3.mp4"]
+      "details": ["p3.png", "bp3.jpg", "vp3.mp4"],
+      "comments": [
+        {
+          "username": "David Brown",
+          "time": "2",
+          "content": "Nice t-shirt, very soft and breathable fabric."
+        },
+        {
+          "username": "Sarah Lee",
+          "time": "4",
+          "content": "The jacket looks even better in person. Highly recommend!"
+        }
+      ]
     },
     {
       "name": "CAMILLA | DREAMING IN DUTCH FLARED SLEEVE DRESS",
       "price": "17.379.000",
       "description": "The Dreaming In Dutch Flared Sleeve Dress by Camilla wanders through a mint green realm of delicate art nouveau swirls and soft painterly blooms. This luxury silk maxi dress features a slightly blousy bustline that tapers into the adjustable shaped waistband.Bella Frock loves the full-length skirt that flares out into a flowy silhouette that dances at the ankles while the dramatic long sleeves create a captivating flare. ",
       "fabrication": "100% SILK",
-      "details": ["p4.jpg", "bp4.jpg", "vp4.mp4"]
+      "details": ["p4.jpg", "bp4.jpg", "vp4.mp4"],
+      "comments": [
+        {
+          "username": "Chris Davis",
+          "time": "2",
+          "content": "Great fit and style. Will buy again."
+        },
+        {
+          "username": "Jessica Williams",
+          "time": "3",
+          "content": "The sweater is really cozy and warm. Love it!"
+        }
+      ]
     },
     {
       "name": "CAMILLA | MAGIC IN THE MANUSCRIPTS TIERED DRESS WITH COLLAR",
       "price": "12.161.000",
       "description": "The Magic In The Manuscripts Tiered Dress With Collar by Camilla embodies a world of bold red and soft pink florals dancing amongst golden filigree against a rich ebony backdrop. This luxury silk mini-shirt dress features a relaxed a-line silhouette with a drop waist seam that flows into a tiered panelled skirt finished with a ruffle hemline.Bella Frock loves the flared long sleeves that echo the tiered ruffle line accent with a wide ruffle that starts at half sleeve length.",
       "fabrication": "100% SILK",
-      "details": ["p5.jpg", "bp5.jpg", "vp5.mp4"]
+      "details": ["p5.jpg", "bp5.jpg", "vp5.mp4"],
+      "comments": [
+        {
+          "username": "Andrew Wilson",
+          "time": "1",
+          "content": "Fantastic quality. Fits perfectly."
+        },
+        {
+          "username": "Amanda Martinez",
+          "time": "5",
+          "content": "Not what I expected. The color is a bit off."
+        }
+      ]
     },
     {
       "name": "CAMILLA | ETCHED INTO ETERNITY DROP SLEEVE SHIRT DRESS",
       "price": "13.378.000",
       "description": "The Etched Into Eternity Drop Sleeve Shirt Dress by Camilla embodies a vivid arrangement of luscious florals dancing amongst a cascade of intricate filigree against a soft blush-toned background. Bella Frock loves that this CAMILLA silk shirt dress features a relaxed slightly a-line silhouette with the option of a waist tie to cinch and shape. The flared silhouette of this luxury silk shirt dress is accentuated with a ruffle hem detail which compliments the full-length blouson sleeves that taper into button-up cuffs. ",
       "fabrication": "100% SILK",
-      "details": ["p6.jpg", "bp6.jpg", "vp6.mp4"]
+      "details": ["p6.jpg", "bp6.jpg", "vp6.mp4"],
+      "comments": [
+        {
+          "username": "Andrew Wilson",
+          "time": "1",
+          "content": "Fantastic quality. Fits perfectly."
+        },
+        {
+          "username": "Amanda Martinez",
+          "time": "5",
+          "content": "Not what I expected. The color is a bit off."
+        }
+      ]
     },
     {
       "name": "SACHA DRAKE | BLACK SWEATHEARTS COCKTAIL DRESS",
       "price": "6.941.000",
       "description": "Evoking old Hollywood glamour, through the hourglass silhouette, sequin encrusted mesh, and sweet-heart neckline, the Sweethearts Ruched Cocktail Dress in Black by Sacha Drake is a forever piece you will never tire of. If you are after a little arm coverage, we, at Bella Frock, love pairing this dress with its matching Midnight Bolero. Pair with gold accessories for cocktail parties, evening events, date nights, or any special occasion.",
       "fabrication": "100% SILK",
-      "details": ["p7.jpg", "bp7.jpg", "vp7.mp4"]
+      "details": ["p7.jpg", "bp7.jpg", "vp7.mp4"],
+      "comments": [
+        {
+          "username": "Daniel Taylor",
+          "time": "3",
+          "content": "Good value for money. Would recommend."
+        },
+        {
+          "username": "Sophia Moore",
+          "time": "4",
+          "content": "Really stylish! Got many compliments."
+        }
+      ]
     },
     {
       "name": "SACHA DRAKE | SAPPHIRE FLAME WRAP MIDI DRESS",
