@@ -4,4 +4,5 @@
 /Cart /templates/Cart 200
 /Contact /templates/Contact 200
 /ProductDetail /templates/ProductDetail 200
+/ProductDetail.html /templates/ProductDetail 200
 /Shop /templates/Shop 200

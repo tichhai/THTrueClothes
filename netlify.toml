@@ -23,6 +23,10 @@
   to = "/templates/ProductDetail"
   status = 200
 [[redirects]]
+  from = "/ProductDetail.html"
+  to = "/templates/ProductDetail"
+  status = 200
+[[redirects]]
   from = "/Shop"
   to = "/templates/Shop"
   status = 200
