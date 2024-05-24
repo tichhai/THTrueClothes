@@ -67,7 +67,7 @@ document
     }
 
     if (isValid) {
-      window.location.href = "Home.html";
+      window.location.pathname = "/index.html";
     }
   });
 function validateEmail(email) {

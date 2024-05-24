@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/"
-  to = "/templates/Home"
+  to = "/index"
   status = 200
 [[redirects]]
   from = "/About"

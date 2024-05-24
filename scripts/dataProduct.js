@@ -117,7 +117,7 @@ fetch("../data/product.json")
         const price = document.createElement("h4");
         price.textContent = item.price + "đ";
         const cartLink = document.createElement("a");
-        cartLink.href = "./Cart.html";
+        cartLink.href = "./templates/Cart.html";
 
         const cartIcon = document.createElement("i");
         cartIcon.classList.add("fa-solid", "fa-shopping-cart", "cart");
@@ -146,7 +146,7 @@ fetch("../data/product.json")
         data.products.forEach((item) => {
           if (item.name == productName) {
             localStorage.setItem("productDetail", JSON.stringify(item));
-            window.location.href = "ProductDetail.html";
+            window.location.href = "/templates/ProductDetail.html";
             return;
           }
         });
