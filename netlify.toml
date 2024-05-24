@@ -1,28 +1,28 @@
 [[redirects]]
   from = "/"
-  to = "/templates/Home.html"
+  to = "/templates/Home"
   status = 200
 [[redirects]]
   from = "/About"
-  to = "/templates/About.html"
+  to = "/templates/About"
   status = 200
 [[redirects]]
   from = "/Blog"
-  to = "/templates/Blog.html"
+  to = "/templates/Blog"
   status = 200
 [[redirects]]
   from = "/Cart"
-  to = "/templates/Cart.html"
+  to = "/templates/Cart"
   status = 200
 [[redirects]]
   from = "/Contact"
-  to = "/templates/Contact.html"
+  to = "/templates/Contact"
   status = 200
 [[redirects]]
   from = "/ProductDetail"
-  to = "/templates/ProductDetail.html"
+  to = "/templates/ProductDetail"
   status = 200
 [[redirects]]
   from = "/Shop"
-  to = "/templates/Shop.html"
+  to = "/templates/Shop"
   status = 200

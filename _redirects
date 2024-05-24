@@ -1,7 +1,7 @@
-/ /templates/Home.html 200
-/About /templates/About.html 200
-/Blog /templates/Blog.html 200
-/Cart /templates/Cart.html 200
-/Contact /templates/Contact.html 200
-/ProductDetail /templates/ProductDetail.html 200
-/Shop /templates/Shop.html 200
+/ /templates/Home 200
+/About /templates/About 200
+/Blog /templates/Blog 200
+/Cart /templates/Cart 200
+/Contact /templates/Contact 200
+/ProductDetail /templates/ProductDetail 200
+/Shop /templates/Shop 200
